@@ -290,7 +290,7 @@ body {
 .card-ite{
     font-size: clamp(9px,2vw,18px);
     display: flex;
-    height: 100px;
+    height: 110px;
     align-items: center;
 }
 .card-ite1{
@@ -311,6 +311,7 @@ body {
 }
 .card-name10{
     display: flex;
+    align-items: center;
 }
 @media  (max-width: 600px){
     .header2{
