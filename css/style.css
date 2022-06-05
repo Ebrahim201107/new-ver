@@ -298,6 +298,8 @@ body {
 }
 .card-name11{
     width: 180px;
+    display: flexbox;
+    align-items: center;
     /* display: inline-block; */
     white-space: nowrap;
     overflow: hidden;
