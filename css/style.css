@@ -403,12 +403,12 @@ body {
         grid-template-columns:  1fr 1fr ;
         height:230px;
         column-gap: 5px;
-        row-gap: 20px;
+        row-gap: 10px;
     }
     .card-cont1{
         /* background-color: #ffffff; */
         /* width: 95%; */
-        height: 180px;
+        height: 210px;
         background-color: #ffffff;
     }
     .card-img{
