@@ -291,9 +291,10 @@ body {
     font-size: clamp(9px,2vw,18px);
     display: flex;
     height: 100px;
+    align-items: center;
 }
 .card-ite1{
-    align-self: center;
+    /* align-self: center; */
     width: 250px;
 }
 .card-name11{
