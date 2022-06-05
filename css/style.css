@@ -298,7 +298,7 @@ body {
 }
 .card-name11{
     width: 180px;
-    display: inline-block;
+    /* display: inline-block; */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -408,7 +408,7 @@ body {
     .card-cont1{
         /* background-color: #ffffff; */
         /* width: 95%; */
-        height: 210px;
+        height: 200px;
         background-color: #ffffff;
     }
     .card-img{
@@ -418,7 +418,7 @@ body {
     }
     .card-name11{
         width: 90px;
-        display: inline-block;
+        /* display: inline-block; */
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
