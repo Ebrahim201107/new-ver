@@ -403,7 +403,7 @@ body {
         grid-template-columns:  1fr 1fr ;
         height:230px;
         column-gap: 5px;
-
+        row-gap: 20px;
     }
     .card-cont1{
         /* background-color: #ffffff; */
