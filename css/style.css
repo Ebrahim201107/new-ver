@@ -312,6 +312,29 @@ body {
 .card-name10{
     display: flex;
     align-items: center;
+    font-size: clamp(9px,2vw,18px);
+
+}
+/* 1111111 */
+.card-it{
+    display: flex;
+    align-items: center;
+    font-size: clamp(9px,2vw,18px);
+    
+}
+.na{
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-na{
+    display: flex;
+
+}
+.card-na1{
+    margin: 10px 0;
 }
 @media  (max-width: 600px){
     .header2{
