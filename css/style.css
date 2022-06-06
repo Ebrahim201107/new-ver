@@ -329,12 +329,15 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.card-it1{
+    width: 70%;
+}
 .card-na{
     display: flex;
 
 }
 .card-na1{
-    margin: 10px 0;
+    margin: 4px 0;
 }
 @media  (max-width: 600px){
     .header2{
