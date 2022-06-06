@@ -313,12 +313,6 @@ body {
     display: flex;
     align-items: center;
 }
-.card-name14{
-    margin: 10px 0;
-}
-.card-ite2{
-    margin-right: 15px;
-}
 @media  (max-width: 600px){
     .header2{
         height: 48px;
