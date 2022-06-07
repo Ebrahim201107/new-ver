@@ -319,9 +319,10 @@ body {
 .card-it{
     display: flex;
     align-items: center;
-    font-size: clamp(9px,2vw,18px);
+    font-size: clamp(13px,2vw,18px);
     
 }
+
 .na{
     display: inline-block;
     width: 180px;
@@ -332,12 +333,15 @@ body {
 .card-it1{
     width: 70%;
 }
+.card-it2{
+    width: 30%;
+}
 .card-na{
     display: flex;
 
 }
 .card-na1{
-    margin: 4px 0;
+    margin: 6px 0;
 }
 @media  (max-width: 600px){
     .header2{
@@ -453,4 +457,7 @@ body {
         overflow: hidden;
         text-overflow: ellipsis;
     }
+    .na{
+        width: 120px;
+    }    
 }
