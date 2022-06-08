@@ -128,11 +128,6 @@ body {
     background-color: #febd69;
     border-radius: 5px;
 }
-.card-name1{
-    width: 80%;
-    align-items: center;
-    display: flex;
-}
 .po{
     top: 0;
     position: fixed;
@@ -237,7 +232,6 @@ body {
     width: 190px;
 }
 .nu-link:hover{
-    border-radius: 20px;
     background-color: #dfdfdfa8;
     cursor: pointer;
 }
