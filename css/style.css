@@ -70,7 +70,7 @@ body {
 .header1-cont2 a:hover{
     border-radius: 5px;
     padding: 5px;
-    border: 1px solid rgb(49, 49, 49);
+    background-color: #ffffff8f;
 }
 .header5{
     width: 75%;
@@ -122,71 +122,11 @@ body {
 .icon-left:hover{
     cursor: pointer;
 }
-.card{
-    width: 80%;
-    padding: 10px;
-    background-color: #e3e4e31f;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    border:1px solid #ffffff;
-    border-radius: 5px;
-}
-.card-left{
-    width: 20%;
-    background-color: aquamarine;
-}
-.card-right{
-    direction: rtl;
-    width: 80%;
-    color: #181f29;
-    font-size: clamp(13px,2vw,20px);
-}
-.img-card1{
-    width: 100%;
-    height: 100%;
-}
-.card-title{
-    display: inline-block;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.prise{
-    width: 100%;
-    text-align: center;
-}
 .prise1{
     display: inline-block;
     padding: 2px;
     background-color: #febd69;
     border-radius: 5px;
-}
-.title-card1{
-    display: inline;
-    font-weight: 800;
-}
-.card-title{
-    width: 100%;
-}
-.discount{
-    text-decoration: line-through;
-}
-.card-name,.card-contact{
-    margin: 5px;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.card-name2{
-    display: inline-block;
-    width: 80%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 .card-name1{
     width: 80%;
@@ -258,6 +198,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-align: center;
 }
 .na{
     display: inline-block;
@@ -266,7 +207,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.card-cont-item,.name-c,.card-loca{
+.card-cont-item,.name,.card-loca,.num-link{
     display: flex;
     align-items: center;
 }
@@ -285,7 +226,7 @@ body {
 .card-loca{
     font-size: clamp(9px,2vw,18px);
 }
-.name-c{
+.name{
     width: 215px;
     font-weight: 600;
 }
@@ -294,6 +235,11 @@ body {
 }
 .number{
     width: 190px;
+}
+.nu-link:hover{
+    border-radius: 20px;
+    background-color: #dfdfdfa8;
+    cursor: pointer;
 }
 @media  (max-width: 600px){
     .header2{
@@ -344,7 +290,7 @@ body {
         left: 0%;
         right: 0;
         z-index: 100;
-        background-color: #0143a760;
+        background-color: #0143a7bb;
      }
     .down{
          margin: auto;
@@ -363,17 +309,7 @@ body {
     .my-adver1{
         display: block;
         border: 0;
-        color: #000000;
-    }
-    .card{ 
-        width: 95%;
-        padding: 2px;
-    }
-    .card-left{
-        width: 35%;
-    }
-    .card-right{
-        width:65%;
+        color: #fcf9f9;
     }
     .header4{
         margin-top:101px;
@@ -396,12 +332,6 @@ body {
     .na{
         width: 115px;
     }
-    .card-it2,.card-it1{
-        height: 65px;
-    }
-    .card-na2{
-        margin-top: 7px;
-    }
     .link1{
         width: 105px;
     }
@@ -411,7 +341,7 @@ body {
     .number{
         width: 105px;
     }
-    .name-c{
+    .name{
         width: 115px;
     }
 }
