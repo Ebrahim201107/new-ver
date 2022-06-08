@@ -185,9 +185,9 @@ body {
 .discount{
     text-decoration: line-through;
 }
-.card-cont{
+/* .card-cont{
     font-size: clamp(11px,2vw,20px);
-}
+} */
 .card-name,.card-contact{
     margin: 5px;
     width: 90%;
@@ -366,6 +366,12 @@ body {
 .card-icon,.icon-loc{
     padding-left: 2px;
 }
+.card-cont{
+    font-size: clamp(10.5px,2vw,19px);
+}
+.number{
+    font-size: clamp(9px,2vw,18px);
+}
 .card-cont-item{
     margin:7px 0 ;
 }
@@ -374,6 +380,9 @@ body {
 }
 .name-c{
     font-weight: 600;
+}
+.link1{
+    width: 200px;
 }
 @media  (max-width: 600px){
     .header2{
@@ -497,5 +506,11 @@ body {
     }
     .card-na2{
         margin-top: 7px;
+    }
+    .link1{
+        width: 110px;
+    }
+    .card-cont-item{
+        margin:5px 0 ;
     }
 }
