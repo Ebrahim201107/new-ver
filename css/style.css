@@ -210,6 +210,10 @@ body {
 }
 .card-icon,.icon-loc{
     padding-left: 2px;
+    
+}
+.card-icon,.card-name1{
+    display: inline-block;
 }
 .card-cont{
     font-size: clamp(10.5px,2vw,19px);
@@ -218,7 +222,7 @@ body {
     font-size: clamp(9px,2vw,18px);
 }
 .number2{
-    font-size: clamp(8px,2vw,18px);
+    font-size: clamp(9px,2vw,18px);
 }
 .card-cont-item{
     margin:7px 0 ;
@@ -236,7 +240,15 @@ body {
 .number{
     width: 190px;
 }
-.nu-link:hover{
+.nnn{
+    display: inline-block;
+}
+/* .num-link:hover{
+    border-radius: 20px;
+    background-color: #dfdfdfa8;
+    cursor: pointer;
+} */
+.nnn:hover{
     border-radius: 20px;
     background-color: #dfdfdfa8;
     cursor: pointer;
