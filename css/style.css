@@ -241,6 +241,10 @@ body {
     background-color: #dfdfdfa8;
     cursor: pointer;
 }
+/* bell */
+.bell{
+    color: #fdfdfd;
+}
 @media  (max-width: 600px){
     .header2{
         height: 48px;
