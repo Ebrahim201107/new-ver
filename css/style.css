@@ -218,7 +218,7 @@ body {
     font-size: clamp(9px,2vw,18px);
 }
 .number2{
-    font-size: clamp(7px,2vw,18px);
+    font-size: clamp(8px,2vw,18px);
 }
 .card-cont-item{
     margin:7px 0 ;
